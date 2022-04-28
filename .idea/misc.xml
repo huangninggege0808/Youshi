@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ui2/app/src/main/res/drawable/bc.xml" value="0.3203125" />
+        <entry key="..\:/ui2/app/src/main/res/drawable/bc2.xml" value="0.3203125" />
+        <entry key="..\:/ui2/app/src/main/res/drawable/bc4.xml" value="0.3203125" />
+        <entry key="..\:/ui2/app/src/main/res/drawable/bc5.xml" value="0.2635416666666667" />
+        <entry key="..\:/ui2/app/src/main/res/drawable/bc6.xml" value="0.2625" />
+        <entry key="..\:/ui2/app/src/main/res/drawable/bc7.xml" value="0.1796875" />
+        <entry key="..\:/ui2/app/src/main/res/drawable/bc8.xml" value="0.3153846153846154" />
+        <entry key="..\:/ui2/app/src/main/res/drawable/bc9.xml" value="0.3203125" />
+        <entry key="..\:/ui2/app/src/main/res/drawable/ic_baseline_camera_alt_24.xml" value="0.3203125" />
+        <entry key="..\:/ui2/app/src/main/res/drawable/ic_baseline_mail_outline_24.xml" value="0.2635416666666667" />
+        <entry key="..\:/ui2/app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.2635416666666667" />
+        <entry key="..\:/ui2/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.2635416666666667" />
+        <entry key="..\:/ui2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2635416666666667" />
+        <entry key="..\:/ui2/app/src/main/res/layout/activity_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/ui2/app/src/main/res/layout/communicate.xml" value="0.30416666666666664" />
+        <entry key="..\:/ui2/app/src/main/res/layout/fragment_person.xml" value="0.26358695652173914" />
+        <entry key="..\:/ui2/app/src/main/res/layout/pic.xml" value="0.22" />
+        <entry key="..\:/ui2/app/src/main/res/layout/qustion.xml" value="0.24635416666666668" />
+        <entry key="..\:/ui2/app/src/main/res/layout/rec_row.xml" value="0.16666666666666666" />
+        <entry key="..\:/ui2/app/src/main/res/layout/setup.xml" value="0.3333333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
