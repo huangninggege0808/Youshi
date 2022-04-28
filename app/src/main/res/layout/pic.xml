@@ -16,8 +16,7 @@
         app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.545"
-        app:srcCompat="@drawable/zn" />
+        app:layout_constraintVertical_bias="0.545" />
 
     <TextView
         android:id="@+id/retext"
@@ -31,8 +30,8 @@
 
     <EditText
         android:id="@+id/reed"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="264dp"
+        android:layout_height="26dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="40dp"
         android:background="@null"

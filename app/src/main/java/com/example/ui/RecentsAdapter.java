@@ -51,7 +51,7 @@ public class RecentsAdapter extends RecyclerView.Adapter<RecentsAdapter.RecentsV
     public void onBindViewHolder(@NonNull RecentsAdapter.RecentsViewHolder holder, int position) {
         holder.retest.setText(recentsDataList.get(position).getTe());
         holder.reed.setText(recentsDataList.get(position).getEd());
-        Bitmap bitmap = BitmapFactory.decodeResource(context.getResources(), R.drawable.zn);
+        Bitmap bitmap = BitmapFactory.decodeResource(context.getResources(),recentsDataList.get(position).getId());
         Bitmap outBitmap =getRoundBitmapByShader(bitmap, 315,189,20, 3);
         holder.reimagine.setImageBitmap(outBitmap);
 

@@ -7,6 +7,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.youth.banner.Banner;
 import com.youth.banner.BannerConfig;
@@ -15,14 +17,30 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Communicate extends AppCompatActivity {
+    private RecyclerView recyclerView1;
+    private RecyclerView recyclerView2;
+    private TopicAdapter topicAdapter;
     private Banner banner;
     private GlideImageLoader glideImageLoader;
     private List<Integer> imagePath;
-    private List<String> imageTitle;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.communicate);
+        List<TopicData> topicDataList=new ArrayList<>();
+        List<TopicData> topicDataList1=new ArrayList<>();
+        topicDataList.add(new TopicData("交友互粉专区",R.drawable.ra));
+        topicDataList.add(new TopicData("健康饮食后的我",R.drawable.rb));
+        topicDataList.add(new TopicData("规范饮食记录区",R.drawable.rc));
+        topicDataList.add(new TopicData("养生饮品讨论区",R.drawable.rd));
+        topicDataList.add(new TopicData("分享食谱专区",R.drawable.re));
+        topicDataList1.add(new TopicData("我的每日健康生活",R.drawable.rf));
+        topicDataList1.add(new TopicData("优食结伴区",R.drawable.rg));
+        topicDataList1.add(new TopicData("每日饮食互动答疑",R.drawable.rh));
+        topicDataList1.add(new TopicData("营养食谱做法区",R.drawable.ri));
+        topicDataList1.add(new TopicData("晒三餐元气美食区",R.drawable.rj));
+        setTopicRecycler(topicDataList);
+        setTopicRecycler2(topicDataList1);
         initDate();
         initView();
         //回首页
@@ -97,7 +115,6 @@ public class Communicate extends AppCompatActivity {
     }
     private void initDate(){
         imagePath=new ArrayList<>();
-        imageTitle=new ArrayList<>();
         imagePath.add(R.drawable.dd);
         imagePath.add(R.drawable.ee);
         imagePath.add(R.drawable.hh);
@@ -115,6 +132,19 @@ public class Communicate extends AppCompatActivity {
          banner.isAutoPlay(true);
          banner.setImages(imagePath);
          banner.start();
-
+    }
+    private  void  setTopicRecycler(List<TopicData> topicDataList){
+        recyclerView1=findViewById(R.id.recyclerview1);
+        RecyclerView.LayoutManager layoutManager=new LinearLayoutManager(this,RecyclerView.HORIZONTAL,false);
+        recyclerView1.setLayoutManager(layoutManager);
+        topicAdapter=new TopicAdapter(this,topicDataList);
+        recyclerView1.setAdapter(topicAdapter);
+    }
+    private  void  setTopicRecycler2(List<TopicData> topicDataList){
+        recyclerView2=findViewById(R.id.recyclerview2);
+        RecyclerView.LayoutManager layoutManager=new LinearLayoutManager(this,RecyclerView.HORIZONTAL,false);
+        recyclerView2.setLayoutManager(layoutManager);
+        topicAdapter=new TopicAdapter(this,topicDataList);
+        recyclerView2.setAdapter(topicAdapter);
     }
 }
