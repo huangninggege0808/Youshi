@@ -16,10 +16,10 @@
 
     <TextView
         android:id="@+id/textView22"
-        android:layout_width="275dp"
-        android:layout_height="46dp"
+        android:layout_width="288dp"
+        android:layout_height="56dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="68dp"
         android:fontFamily="@font/abhaya_libre_semibold"
         android:text="加优食营养师"
         android:textColor="#228B22"
@@ -57,7 +57,7 @@
         android:id="@+id/textView25"
         android:layout_width="326dp"
         android:layout_height="337dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="12dp"
         android:background="@drawable/bc"
         app:layout_constraintStart_toStartOf="parent"

@@ -19,6 +19,23 @@ public class Person extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragment_person);
+         ImageView jkzk=findViewById(R.id.imageView17);
+         TextView  jkzk1=findViewById(R.id.textView21);
+         //健康状况
+         jkzk.setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View v) {
+                 Intent intent10=new Intent(Person.this,persontext.class);
+                 startActivity(intent10);
+             }
+         });
+        jkzk1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent11=new Intent(Person.this,persontext.class);
+                startActivity(intent11);
+            }
+        });
         //回首页
         ImageView shouye=findViewById(R.id.imageView9);
         TextView shouye1=findViewById(R.id.textView6);
