@@ -61,13 +61,12 @@
             android:layout_marginTop="20dp"
             android:layout_marginEnd="16dp"
             android:background="@drawable/bc"
-            android:drawableLeft="@drawable/ic_baseline_search_24"
-            android:drawableRight="@drawable/ic_baseline_camera_alt_24"
             android:ems="10"
             android:inputType="textPersonName"
             android:paddingLeft="5dp"
             android:paddingRight="10dp"
             android:text="Component query"
+            android:textAlignment="center"
             app:layout_constraintEnd_toEndOf="@+id/imageView4"
             app:layout_constraintStart_toStartOf="@+id/textView"
             app:layout_constraintTop_toBottomOf="@+id/imageView3" />
@@ -160,6 +159,26 @@
             app:layout_constraintBottom_toBottomOf="@+id/textView4"
             app:layout_constraintEnd_toEndOf="@+id/imageView2"
             app:layout_constraintStart_toStartOf="@+id/imageView2" />
+
+        <ImageView
+            android:id="@+id/imageView35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="34dp"
+            app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:srcCompat="@drawable/seachh" />
+
+        <ImageView
+            android:id="@+id/imageView36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="328dp"
+            android:layout_marginTop="6dp"
+            app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
+            app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName"
+            app:srcCompat="@drawable/camr" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -298,12 +317,12 @@
             android:id="@+id/recyclerview"
             android:layout_width="315dp"
             android:layout_height="506dp"
-            android:layout_marginStart="60dp"
+            android:layout_marginStart="50dp"
             android:layout_marginEnd="18dp"
             android:overScrollMode="never"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintHorizontal_bias="0.526"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.0" />
