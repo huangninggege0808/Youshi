@@ -17,11 +17,12 @@
         <entry key="..\:/ui2/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.2635416666666667" />
         <entry key="..\:/ui2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2635416666666667" />
         <entry key="..\:/ui2/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/ui2/app/src/main/res/layout/communicate.xml" value="0.30416666666666664" />
+        <entry key="..\:/ui2/app/src/main/res/layout/communicate.xml" value="0.22" />
         <entry key="..\:/ui2/app/src/main/res/layout/file.xml" value="0.1625" />
         <entry key="..\:/ui2/app/src/main/res/layout/fragment_person.xml" value="0.26358695652173914" />
         <entry key="..\:/ui2/app/src/main/res/layout/persontext.xml" value="0.22" />
         <entry key="..\:/ui2/app/src/main/res/layout/pic.xml" value="0.22" />
+        <entry key="..\:/ui2/app/src/main/res/layout/pictext.xml" value="0.22" />
         <entry key="..\:/ui2/app/src/main/res/layout/qustion.xml" value="0.24635416666666668" />
         <entry key="..\:/ui2/app/src/main/res/layout/rec_row.xml" value="0.16666666666666666" />
         <entry key="..\:/ui2/app/src/main/res/layout/setup.xml" value="0.3333333333333333" />

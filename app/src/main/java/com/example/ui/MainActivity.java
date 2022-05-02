@@ -3,6 +3,7 @@ package com.example.ui;
 import static com.example.ui.R.drawable.ic_baseline_camera_alt_24;
 import static com.example.ui.RoundRectImageView.getRoundBitmapByShader;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.FileProvider;
 import androidx.fragment.app.Fragment;
@@ -23,6 +24,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -138,6 +140,19 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        switch (requestCode) {
+            case TAKE_PHOTO:
+                if (resultCode == RESULT_OK) {
+                      Intent intent20=new Intent(MainActivity.this,picturetext.class);
+                      startActivity(intent20);
+                }
+        }
+    }
+
     private  void  setRecentRecycler(List<RecentsData> recentsDataList){
         recyclerView=findViewById(R.id.recyclerview);
         RecyclerView.LayoutManager layoutManager=new LinearLayoutManager(this,RecyclerView.VERTICAL,false);

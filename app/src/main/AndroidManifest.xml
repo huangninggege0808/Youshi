@@ -24,6 +24,7 @@
         <activity android:name=".Setup"/>
         <activity android:name=".Communicate"/>
         <activity android:name=".persontext"/>
+        <activity android:name=".picturetext"/>
            <provider
                android:authorities="com.workspace.hh.cameraalbumtest.fileprovider"
                android:name="androidx.core.content.FileProvider"
